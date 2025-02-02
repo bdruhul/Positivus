@@ -1,4 +1,4 @@
-/*--------------- Custom color based client requirements ------------*/
+/* custom style using tailwind js */
 
 module.exports = {
     content: [
@@ -6,12 +6,20 @@ module.exports = {
     ],
     theme: {
       extend: {
+        /*--------------- Custom color ------------*/
         colors: {
-          primary: '#1D4ED8',
-          secondary: '#9333EA',
+          primary: '#B9FF66',
+          secondary: '#191A23',
+          third: '#F3F3F3',
         },
+        /*--------------- Custom color ------------*/
+        /*--------------- Custom google font ------------*/
+        fontFamily: {
+          'space-grotesk': ['Space Grotesk', 'serif'],
+        },
+        /*--------------- Custom google font ------------*/
       },
     },
     plugins: [],
   }
-/*--------------- Custom color based client requirements ------------*/
+/* custom style using tailwind js */
