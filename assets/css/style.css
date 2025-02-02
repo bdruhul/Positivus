@@ -1,0 +1,27 @@
+:root {
+    --var-primary: ;
+    --var-second: #191A23;
+    --var-third: #F3F3F3;
+    --var-font: "Space Grotesk", serif;
+}
+
+.space-grotesk {
+    font-family: "Space Grotesk", serif;
+}
+
+.primary {
+    background-color: #B9FF66;
+    color: #B9FF66;
+}
+.secondary{
+            color: #191A23;
+}
+
+.third {
+    color: #F3F3F3;
+}
+
+.container{
+            max-width: 1240px;
+            margin: 0 auto;
+}

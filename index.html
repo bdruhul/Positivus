@@ -1,34 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- website title  -->
-        <title>Positivus</title>
-        <!-- website title  -->
-        <!-- Favicons -->
-        <link rel="shortcut icon" href="./assets/images/mobile-logo.png" type="image/x-icon">
-        <!-- Favicons -->
-        <!-- google Fonts  -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-        <!-- google Fonts  -->
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- Font Awesome  -->
-        <!-- Tailwind and DaisyUi CDN link  -->
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <!-- Tailwind and DaisyUi CDN link  -->
-    </head>
-<body>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- website title  -->
+    <title>Positivus</title>
+    <!-- website title  -->
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="./assets/images/mobile-logo.png" type="image/x-icon">
+    <!-- Favicons -->
+    <!-- google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonsts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!-- google Fonts  -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome  -->
+    <!-- Tailwind and DaisyUi CDN link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind and DaisyUi CDN link  -->
+    <!-- css link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- css link  -->
+</head>
 
-    <!-- javascript link  -->
-     <script src="assets/js/style.js"></script>
-    <!-- javascript link  -->
+<body class="container space">
+    <!--header section-->
+    <!-- haeder nav  -->
+    <nav>
+        <div class="navbar bg-base-100 md:mt-12 mt-4">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">Services</a></li>
+                        <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">Use Cases</a></li>
+                        <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">About us</a></li>
+                        <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">Pricing</a></li>
+                        <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">Blog</a></li>
+                    </ul>
+                </div>
+                <a  href="#"  class=""><img src="./assets/images/logo (2).png" alt="" srcset=""></a>
+            </div>
+            <div class="navbar-end">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">Services</a></li>
+                    <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">Use Cases</a></li>
+                    <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">About us</a></li>
+                    <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">Pricing</a></li>
+                    <li><a href="#" class="text-xl text-[#000] space-grotesk hover:bg-transparent">Blog</a></li>
+                </ul>
+                <a class="btn bg-white hover:bg-transparent py-5 px-9 text-xl space-grotesk">Request a quote</a>
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- haeder nav  -->
+    <!--header section-->
 </body>
+
 </html>
